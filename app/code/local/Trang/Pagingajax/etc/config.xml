@@ -1,0 +1,84 @@
+<config>
+    <modules>
+        <Trang_Pagingajax>
+            <version>0.1.0</version>
+        </Trang_Pagingajax>
+    </modules>
+    <frontend>
+
+        <routers>
+            <!--??-->
+            <catalog>
+                <args>
+                    <modules>
+                        <trang_pagingajax before="Mage_Catalog">Trang_Pagingajax</trang_pagingajax>
+                    </modules>
+                </args>
+            </catalog>
+            <!--??-->
+            <!--<catalogsearch>-->
+                <!--<args>-->
+                    <!--<modules>-->
+                        <!--<trang_pagingajax before="Mage_CatalogSearch">Trang_Pagingajax</trang_pagingajax>-->
+                    <!--</modules>-->
+                <!--</args>-->
+            <!--</catalogsearch>-->
+
+        </routers>
+
+
+        <layout>
+            <updates>
+                <pagingajax>
+                    <file>pagingajax.xml</file>
+                </pagingajax>
+            </updates>
+        </layout>
+
+
+        
+
+    </frontend>
+
+    <global>
+        <models>
+            <pagingajax>
+                <class>Trang_Pagingajax_Model</class>
+            </pagingajax>
+        </models>
+
+
+        <blocks>
+            <pagingajax>
+                <class>Trang_Pagingajax_Block</class>
+            </pagingajax>
+            <!--rewrite-->
+            <!--<catalogsearch>-->
+                <!--<rewrite>-->
+                    <!--<result>Trang_Pagingajax_Block_CatalogSearch_Result</result>-->
+                <!--</rewrite>-->
+            <!--</catalogsearch>-->
+        </blocks>
+
+
+        <!--<helpers>-->
+            <!--<ajax>-->
+                <!--<class>Trang_Ajax_Helper</class>-->
+            <!--</ajax>-->
+        <!--</helpers>-->
+
+
+    </global>
+
+    <!--default is actived-->
+
+    <default>
+        <pagingajax>
+            <config>
+                <active>1</active>
+            </config>
+        </pagingajax>
+    </default>
+
+
+</config>

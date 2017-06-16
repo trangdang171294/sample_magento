@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <Trang_Apaging>
+            <version>0.1.0</version>
+        </Trang_Apaging>
+    </modules>
+
+    <frontend>
+        <routers>
+
+            <catalog>
+                <args>
+                    <modules>
+                        <trang_apaging before="Mage_Catalog">Trang_Apaging</trang_apaging>
+                    </modules>
+                </args>
+            </catalog>
+
+        </routers>
+
+        <layout>
+            <updates>
+                <apaging>
+                    <file>apaging.xml</file>
+                </apaging>
+            </updates>
+        </layout>
+
+    </frontend>
+
+    <!--<global>-->
+        <!--<models>-->
+            <!--<apaging>-->
+                <!--<class>Trang_Apaging_Model</class>-->
+            <!--</apaging>-->
+        <!--</models>-->
+        <!--<blocks>-->
+            <!--<apaging>-->
+                <!--<class>Trang_Apaging_Block</class>-->
+            <!--</apaging>-->
+
+        <!--</blocks>-->
+
+    <!--</global>-->
+
+    <default>
+        <apaging>
+            <config>
+                <active>1</active>
+            </config>
+        </apaging>
+    </default>
+</config>

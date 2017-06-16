@@ -1,0 +1,9 @@
+<config>
+    <modules>
+        <Trang_Pagingajax>
+            <version>0.1.0</version>
+            <active>false</active>
+            <codePool>local</codePool>
+        </Trang_Pagingajax>
+    </modules>
+</config>

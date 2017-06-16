@@ -1,0 +1,12 @@
+
+<config>
+    <modules>
+        <Trang_Apaging>
+            <active>true</active>
+            <codePool>local</codePool>
+            <!--<depends>-->
+            <!--<Mage_Catalog />-->
+            <!--</depends>-->
+        </Trang_Apaging>
+    </modules>
+</config>

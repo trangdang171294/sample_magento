@@ -1,0 +1,59 @@
+
+<config>
+    <modules>
+        <Trang_Ajaxproduct>
+            <version>0.1.0</version>
+        </Trang_Ajaxproduct>
+    </modules>
+    <frontend>
+
+        <routers>
+            <ajaxproduct>
+                <use>standard</use>
+                <args>
+                    <module>Trang_Ajaxproduct</module>
+                    <frontName>ajaxproduct</frontName>
+                </args>
+            </ajaxproduct>
+        </routers>
+
+        <layout>
+            <updates>
+                <ajaxproduct>
+                    <file>ajaxproduct.xml</file>
+                </ajaxproduct>
+            </updates>
+        </layout>
+
+    </frontend>
+
+    <global>
+        <helpers>
+            <ajaxproduct>
+                <class>Trang_Ajaxproduct_Helper</class>
+            </ajaxproduct>
+        </helpers>
+
+        <blocks>
+            <ajaxproduct>
+                <class>Trang_Ajaxproduct_Block</class>
+            </ajaxproduct>
+        </blocks>
+
+        <models>
+            <ajaxproduct>
+                <class>Trang_Ajaxproduct_Model</class>
+            </ajaxproduct>
+        </models>
+
+    </global>
+
+    <default>
+        <ajaxproduct>
+            <config>
+                <active>1</active>
+            </config>
+        </ajaxproduct>
+    </default>
+
+</config>

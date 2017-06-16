@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Vinagento_Vpager</name>
+    <version>0.1.7</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Ajax powered pagination and layered navigation for your store</summary>
+    <description>Use latest browser's pushState to support back and next of page. better SEO support</description>
+    <notes>- Fix search error&#xD;
+- Fix cache eror&#xD;
+- Support Full Page Cache for EE version</notes>
+    <authors><author><name>Vinagento</name><user>auto-converted</user><email>vinagento@gmail.com</email></author></authors>
+    <date>2013-07-23</date>
+    <time>08:48:15</time>
+    <contents><target name="magecommunity"><dir name="Vinagento"><dir name="Vpager"><dir name="Block"><dir name="CatalogSearch"><file name="Result.php" hash="461f3712b78004a3491fb1a4c3602984"/></dir></dir><dir name="Helper"><file name="Data.php" hash="26d3ed48ef6e74c34646ba120d5173cc"/></dir><dir name="controllers"><file name="AdvancedController.php" hash="380e5b3bc90dd1c257d0d80d3e8a33e2"/><file name="CategoryController.php" hash="47f3a9e070cda7a7d9ce71ab26321887"/><file name="ResultController.php" hash="cb2bce594eeb872e03185b0b590aa795"/></dir><dir name="etc"><file name="adminhtml.xml" hash="1c0980903f8f84ccd205a5d56dcdeadf"/><file name="config.xml" hash="23534b54ec71133f85e62bc47be6cd81"/><file name="system.xml" hash="224537930f3931ddad1339f0832cc3a2"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Vinagento_Vpager.xml" hash="8c2343c234e6b7a53f3c5efb3407a508"/><file name="Vinagento_All.xml" hash="c7cc1f2ff35e2715b7c1705b7c02752f"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="vpager.xml" hash="fa963986e2c6a31b4584336203c8396f"/></dir><dir name="template"><dir name="vpager"><file name="advanced_result.phtml" hash="5505afb147ce4ede6125d0a6d9053a18"/><file name="search_result.phtml" hash="4005b55c055fb9711332d0565ae7c9aa"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="js"><file name="vpager.js" hash="7fb0aa64a6df245bfbe991cb525dc847"/></dir><dir name="css"><file name="vpager.css" hash="3286d0e04f149edb3df22cf322b83d2d"/></dir></dir></dir></dir></target><target name="magelocal"><dir name="Vinagento"><dir name="All"><dir name="Helper"><file name="Config.php" hash="21d13777d955e4e952357f188da6e117"/><file name="Data.php" hash="4085e9b76a48f8a27c4a84cff1a5e043"/></dir><dir name="Model"><dir name="Feed"><file name="Abstract.php" hash="01029311caffdc31a9d828c94802fd11"/><file name="Updates.php" hash="9867bd672d7df5c373fe19cefdc99fc0"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="60ecc4909183b214f2ea955ee728d248"/><file name="config.xml" hash="87222fbc8ce24253d50294ccf6c65dc0"/><file name="system.xml" hash="93caad8f7183536148872a7bb9be28c8"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
